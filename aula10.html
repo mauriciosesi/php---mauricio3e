@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style10.css">
+</head>
+
+<body>
+  
+    <form action="recebe-aula10.php" method="post">
+
+        <h1>Corrida comunitária</h1>
+        <p>Faça sua inscrição para a corrida comunitária e se divirta enquanto ajuda o próximo!<br>
+            <br>
+            Ficamos felizes em saber que você tem interece em participar desse projeto se increvendo nessa corrida e doando ,pelo menos, um quilo de alimento.<br>
+            <br>
+            Para finalizar sua inscrição, disponha seus dados nos espaços abaixo!<br>
+            <br>
+           
+        </p>
+
+        <h3>Dados pessoais</h3>
+        
+
+
+
+        <label for="nome">Nome completo: </label><br>
+        <input type="text" name="nome"><br>
+        <label for="data_nascimento">Data de nascimento: </label><br>
+        <input type="text" name="data_nascimento"><br>
+        <label for="sexo">Sexo: </label><br>
+        <input type="text" name="sexo"><br>        
+        <label for="estado_civil">Estado Civil: </label><br>
+        <input type="text" name="estado_civil"><br>
+        <label for="nacionalidade">Nacionalidade: </label><br>
+        <input type="text" name="nacionalidade"><br>
+        <label for="numero_rg">Número do RG: </label><br>
+        <input type="text" name="numero_rg"><br>
+        <label for="cpf">CPF: </label><br>
+        <input type="text" name="cpf"><br>
+
+       
+        <h3>Endereço completo</h3>
+
+        <label for="logradouro">Logradouro: </label><br>
+        <input type="text" name="logradouro"><br>
+        <label for="numero">Número: </label><br>
+        <input type="text" name="numero"><br>
+        <label for="complemento">Complemento: </label><br>
+        <input type="text" name="complemento"><br>
+        <label for="bairro">Bairro: </label><br>
+        <input type="text" name="bairro"><br>
+        <label for="cidade">Cidade: </label><br>
+        <input type="text" name="cidade"><br> 
+        <label for="estado">Estado:</label><br>
+        <input type="text" name="estado"><br>
+        <label for="cep">CEP: </label><br>
+        <input type="text" name="cep"><br>
+       
+        <h3>Contato</h3>
+
+        <label for="telefone">Telefone de contato: </label><br>
+        <input type="text" name="telefone"><br>
+        <label for="e_mail">E-MAIL: </label><br>
+        <input type="text" name="e_mail"><br>
+
+
+
+
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
